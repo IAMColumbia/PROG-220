@@ -1,0 +1,16 @@
+@startuml
+class Student {
+    +FirstName
+    +LastName
+    +Age
+    +Courses
+    +HaveBirthday()
+    +GetAge()
+    +Enroll(Course)
+}
+
+class Course {
+    +Id
+    +Name
+}
+@enduml
